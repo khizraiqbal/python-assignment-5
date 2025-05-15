@@ -6,7 +6,7 @@ class ATM:
         # Initialize balance and default PIN
         self.balance = 1000
         self.pin = "1234"
-        self.is_authenticated = False  # Track if the user has entered the correct PIN
+        self.is_authenticated = False 
 
     def check_pin(self, input_pin):
         # Check if entered PIN matches the stored PIN
